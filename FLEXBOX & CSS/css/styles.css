@@ -12,15 +12,9 @@ padding: 10px;
 border: 1px solid red;
 height: 350px;
 width: 150px;
-flex-grow: 2;
+flex-grow: 1;
 display: flex;
-justify-content: center;
-align-items: center;
-/* flex-direction: column-reverse; */
-font-size: 50px;
+flex-direction: column;
 border-radius: 10px; 
-}
-.flex-items:first-child
-{
-   flex-grow: 4;
+padding: 10px;
 }
